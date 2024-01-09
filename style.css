@@ -1,0 +1,127 @@
+body {
+    background-color: black !important;
+}
+
+.azulClaro {
+    color: #ace2fd;
+}
+
+.fondoNegro {
+    background-color: black;
+}
+
+.fondoSW {
+    background-image: url(https://us.123rf.com/450wm/lisaalisaill/lisaalisaill1705/lisaalisaill170500124/79233450-ilustraci%C3%B3n-de-la-galaxia-fondo-del-espacio-con-estrellas-nebulosa-nubes-cosmos.jpg);
+}
+
+.fondoHolograma {
+    background-color: #02bae4 !important;
+    opacity: 90%;
+}
+
+.azulino {
+    filter: grayscale(100%) brightness(80%) opacity(70%);
+}
+
+.pBlanco {
+    color: white;
+}
+
+.card:hover {
+    opacity: 100%;
+    background-color: #ecd717 !important;
+
+}
+
+.card:hover .azulino {
+    filter: none;
+}
+
+.card:hover .pBlanco,
+.card-title {
+    color: black !important;
+}
+
+.card:hover .fondoHolograma {
+    background-color: white !important;
+}
+
+.card.personajes img {
+    height: 600px;
+    /* Establecer una altura fija */
+    object-fit: cover;
+    /* Escalar la imagen para que cubra todo el contenedor */
+}
+
+.card.planetas img {
+    height: 350px;
+    /* Establecer una altura fija */
+    object-fit: cover;
+    /* Escalar la imagen para que cubra todo el contenedor */
+}
+
+input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+}
+
+input[type="radio"]:checked {
+    color: black;
+    background-color: white;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.amarillo {
+    color: #ecd717;
+}
+
+a.enlace {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+.btn-outline-warning {
+    --bs-btn-color: #ecd717 !important;
+    --bs-btn-border-color: #ecd717 !important;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ecd717 !important;
+    --bs-btn-hover-border-color: #ecd717 !important;
+    --bs-btn-focus-shadow-rgb: 255, 193, 7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #ecd717 !important;
+    --bs-btn-active-border-color: #ecd717 !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #ecd717 !important;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #ecd717 !important;
+    --bs-gradient: none;
+}
+
+.btn-outline-light {
+    --bs-btn-color: white !important;
+    --bs-btn-border-color: white !important;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: white !important;
+    --bs-btn-hover-border-color: white !important;
+    --bs-btn-focus-shadow-rgb: 255, 193, 7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: white !important;
+    --bs-btn-active-border-color: white !important;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: white !important;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: white !important;
+    --bs-gradient: none;
+}
